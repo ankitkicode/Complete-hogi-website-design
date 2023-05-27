@@ -1,0 +1,1106 @@
+* {
+    font-family: gilroy;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+
+}
+
+.page1 {
+    padding: .1px;
+    height: 100%;
+    width: 100%;
+    /* background-color: burlywood;*/
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://hogi.io/wp-content/themes/twentytwenty/assets/HOGI-images/section-bg1.svg);
+
+}
+
+.page1 header {
+    z-index: 6;
+    position: fixed;
+    /* margin-top: 20px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 45px;
+    padding-right: 45px;
+    height: 20%;
+    width: 100%;
+    /* background-color: rgb(155, 145, 165); */
+}
+
+header .logo {
+    height: 25%;
+}
+
+/* width: 100%; */
+header nav {
+    /* position: relative; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 5px 8px;
+    background-color: #f0f0f0e3;
+    border-radius: 10px;
+}
+
+header nav a {
+    font-family: sans-serif;
+    text-decoration: none;
+    font-weight: 100;
+    color: black;
+    text-transform: capitalize;
+    font-size: 18px;
+    /* background-color: #8a5353; */
+    height: 100%;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+nav a:hover {
+    color: rgb(46, 46, 160);
+    background-color: #fff;
+}
+
+header p {
+    font-weight: 500;
+    font-family: sans-serif;
+    cursor: pointer;
+    padding: 12px 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #f0f0f0b9;
+    border-radius: 15px;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #604B9E;
+}
+
+header p img {
+    height: 1%;
+
+}
+
+.page1 .center {
+    position: relative;
+    top: 20%;
+    height: 75%;
+    width: 90%;
+    background-color: #604B9E;
+    margin-left: 5%;
+    border-radius: 50px;
+}
+
+.page1 .center video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50px;
+    object-position: center;
+}
+
+.page1 .center h1 {
+    text-align: center;
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    font-size: 80px;
+    font-family: gilroy;
+    color: #fff;
+    font-weight: 900;
+    line-height: 90px;
+    letter-spacing: -2px;
+}
+
+.page1 .divside {
+    z-index: 5;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    position: fixed;
+    top: 40%;
+    right: 0px;
+    height: 150px;
+    width: 50px;
+    background-color: #755FEF;
+}
+
+.page1 .divside p {
+    margin-top: 70px;
+    rotate: -90deg;
+}
+
+.center p {
+    position: absolute;
+    bottom: 15%;
+    font-size: 30px;
+    font-family: gilroy;
+    font-weight: 600;
+    color: #fff;
+    left: 40%;
+}
+
+.page2 {
+    position: relative;
+    padding: .1px;
+    height: 100%;
+    width: 100%;
+    /* background-color: burlywood;*/
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://hogi.io/wp-content/themes/twentytwenty/assets/HOGI-images/section-bg1.svg);
+}
+
+.page2 p {
+    margin-left: 3%;
+    font-size: 17px;
+    word-spacing: -1px;
+}
+
+.page2 h3 {
+    margin-left: 3%;
+    font-size: 19px;
+    word-spacing: 3px;
+    line-height: 48px;
+}
+
+.page2 .center2 {
+    display: flex;
+    position: absolute;
+    bottom: 7%;
+    height: 70%;
+    width: 90%;
+    background-color: #D8DBE9;
+    left: 5%;
+    border-radius: 250px;
+}
+
+.center2 .left {
+    text-align: start;
+    height: 100%;
+    width: 50%;
+    /* background-color: #703232; */
+    border-top-left-radius: 250px;
+    border-bottom-left-radius: 250px;
+
+}
+
+.center2 .left h1 {
+    margin-left: 25%;
+    margin-top: 10%;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 60px;
+    color: #fff;
+}
+
+.center2 .left h2 {
+    padding-top: 20px;
+    margin-left: 25%;
+    font-size: 29px;
+    font-weight: 900;
+    line-height: 30px;
+    color: #fff;
+}
+
+.center2 .left h4 {
+    padding-top: 30px;
+    margin-left: 25%;
+    font-size: 30px;
+    line-height: 29px;
+    color: blue;
+    animation: glitch 1s infinite;
+}
+
+
+@keyframes glitch {
+
+    11%,
+    14% {
+        clip-path: polygon(100% 0, 0 18%, 99% 46%, 0 78%, 100% 100%, 100% 57%, 0 100%, 100% 76%, 0 59%, 100% 35%, 0 37%, 100% 21%)
+    }
+
+    12%,
+    16% {
+        clip-path: polygon(0 51%, 0 29%, 100% 0, 0 14%, 99% 57%, 100% 23%, 0 100%, 100% 72%, 0 0, 100% 100%)
+    }
+
+    13%,
+    17% {
+        clip-path: polygon(0% 0%, 99% 0%, 99% 8%, 0% 7%, 0% 14%, 99% 15%, 100% 22%, 0% 22%, 0% 30%, 99% 30%, 99% 39%, 0% 37%, 0% 43%, 100% 45%, 100% 50%, 0% 49%, 0% 56%, 99% 57%, 99% 63%, 0% 63%, 0% 68%, 99% 68%, 99% 75%, 0% 76%, 0% 81%, 100% 83%, 100% 89%, 0% 88%, 0% 94%, 100% 95%, 100% 100%, 0% 99%)
+    }
+}
+
+.center2 .right {
+    text-align: start;
+    height: 100%;
+    width: 60%;
+    /* background-color: #e46a6a; */
+    border-top-right-radius: 250px;
+    border-bottom-right-radius: 250px;
+    background-image: url(https://hogi.io/wp-content/uploads/2023/05/tagline2x.webp);
+    background-position: right;
+    background-size: cover;
+
+}
+
+.page3 {
+    gap: 30px;
+    display: flex;
+    padding: .1px;
+    height: 130%;
+    width: 100%;
+    /* background-color: aquamarine; */
+}
+
+.page3 .page3-lft {
+    height: 93%;
+    width: 45%;
+    background-color: #604B9E;
+    margin-top: 20px;
+    margin-left: 5%;
+    border-radius: 30px;
+    border: none;
+}
+
+.page3 .page3-lft video {
+    border: none;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+    object-position: center;
+}
+
+.page3 .page3-rgt {
+    height: 93%;
+    width: 45%;
+    /* background-color: #52447a; */
+    margin-top: 20px;
+    /* margin-left: 5%; */
+    border-radius: 30px;
+}
+
+.page3-rgt h2 {
+    margin-top: 10%;
+    margin-left: 50px;
+    font-size: 35px;
+    font-weight: 600;
+    color: #755FEF;
+}
+
+.page3-rgt .p1 {
+    margin-top: 6%;
+    margin-left: 50px;
+    font-size: 25px;
+    font-weight: 600;
+    /* color: #755FEF; */
+}
+
+.page3-rgt h1 {
+    margin-top: 7%;
+    margin-left: 50px;
+    font-size: 39px;
+    font-weight: 700;
+    /* color: #755FEF; */
+    color: #755FEF;
+}
+
+.page3-rgt .p2 {
+    margin-top: 7%;
+    margin-left: 50px;
+    font-size: 25px;
+    font-weight: 600;
+    /* color: #755FEF; */
+}
+
+.page3-rgt .p3 {
+    margin-top: 6%;
+    margin-left: 50px;
+    font-size: 25px;
+    font-weight: 600;
+    /* color: #755FEF; */
+}
+
+.page4 {
+    gap: 40px;
+    display: flex;
+    padding: .1px;
+    height: 140%;
+    width: 100%;
+    background-color: #0B0616;
+}
+
+.page4-lft {
+    padding: .1px;
+    height: 100%;
+    width: 50%;
+    /* background-color: aquamarine; */
+}
+
+.page4-lft h1 {
+    margin-top: 10%;
+    margin-left: 10%;
+    font-size: 50px;
+    color: #fff;
+}
+
+.page4-lft p {
+    color: #fff;
+    font-size: 19px;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.page4-lft img {
+    padding-top: 10%;
+    margin-left: 18%;
+    height: 55%;
+}
+
+.page4-rgt {
+    margin-top: 5%;
+    padding: .1px;
+    height: 90%;
+    width: 45%;
+    /* background-color: rgb(155, 177, 169); */
+}
+
+.page4-rgt h1 {
+
+    position: relative;
+    color: #fff;
+    font-size: 27px;
+    font-weight: 500;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid gray;
+    cursor: pointer;
+}
+
+.page4-rgt h1::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0%;
+    height: 3px;
+    background-color: #755FEF;
+    transform: translate(-50%, 0%);
+    transition: all ease .5s;
+}
+
+.page4-rgt h1:hover::after {
+    width: 98%;
+}
+
+.page5 {
+    height: 130%;
+    width: 100%;
+    /* background-color: #303342; */
+}
+
+.page5 .text {
+    font-weight: 600;
+    font-size: 28px;
+    padding-top: 70px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.page5 .boxs {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 74%;
+    width: 100%;
+    /* background-color: #9b4646; */
+}
+
+.boxs .box1 {
+    text-align: center;
+    height: 80%;
+    width: 25%;
+    background-color: #F4F4F4;
+    border-radius: 20px;
+}
+
+.boxs .box1 p {
+    margin-top: 10%;
+    font-size: 20px;
+    padding: 0px 10px;
+}
+
+.boxs .box1 img {
+    padding-top: 20px;
+}
+
+.boxs .box1 h2 {
+    font-size: 25px;
+    padding-top: 30px;
+    /* padding-bottom: 0px; */
+}
+
+.page6 {
+    display: flex;
+    align-items: center;
+    height: 80%;
+    width: 100%;
+    /* background-color: #604B9E; */
+}
+
+.page6 .left {
+    text-align: center;
+    border-radius: 200px;
+    margin-left: 5%;
+    height: 60%;
+    width: 55%;
+    background-color: #fff;
+    background-image: url(https://hogi.io/wp-content/uploads/2023/05/contact-us2x.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.page6 .left h1 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+    margin-top: 8%;
+    color: #fff;
+}
+
+.page6 .left p {
+    padding-top: 3%;
+    font-size: 22px;
+    letter-spacing: -1px;
+    color: #fff;
+}
+
+.page6 .right {
+    margin-top: -1%;
+    margin-left: 60px;
+    height: 60%;
+    width: 30%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.page6 .right button {
+    padding: 35px 30px;
+    font-size: 20px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.page6 .right button:hover {
+    background: linear-gradient(152.77deg, #F6FDA3 -5.35%, #FF9191 113.96%)
+}
+
+.page7 {
+    padding: .1px;
+    height: 100%;
+    width: 100%;
+    /* background-color: #604B9E; */
+}
+
+.page7 h2 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    /* margin-left: 45%; */
+    margin-top: 50px;
+}
+
+.page7 p {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.page7 .scroller {
+    position: absolute;
+    margin-top: 10%;
+    height: 15%;
+    width: 100%;
+    /* background-color: #bd0f4c; */
+    /* display: inline; */
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scrollbar-width: none;
+
+}
+
+.page7 .scroller .div1 {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    white-space: nowrap;
+    animation: move 9s infinite linear;
+}
+
+
+.page7 .scroller .div1 img {
+    display: inline-block;
+    height: 100%;
+    width: 20%;
+    margin-right: 50px;
+
+
+}
+
+
+
+@keyframes move {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(calc(-100% - 54px));
+    }
+
+}
+
+.page8 {
+    position: relative;
+    padding: .1px;
+    height: 200%;
+    width: 100%;
+    background: linear-gradient(95.39deg, #5D44EE -7.09%, #C0B4F0 107.31%);
+}
+
+.page8 h1 {
+    text-align: center;
+    margin-top: 30px;
+    color: #FFB7C8;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: 0.12em;
+}
+
+.page8 .centertxt {
+    margin-top: 4%;
+    margin-left: 3.5%;
+    text-align: center;
+    width: 93%;
+    font-size: 75px;
+    line-height: 75px;
+    letter-spacing: -1px;
+    font-weight: 800;
+    color: #fff;
+}
+
+.page8 .icons {
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 150px;
+    gap: 5px;
+    /* background-color: #FF9191; */
+}
+
+.page8 .icons i {
+    padding: 15px 16px;
+    background-color: red;
+    border-radius: 50px;
+    font-size: 24px;
+    color: #fff;
+    background-color: #C0B4F0;
+}
+
+.page8 .containers {
+    overflow: hidden;
+    padding: .1px;
+    position: relative;
+    margin-top: 10%;
+    margin-left: 4%;
+    height: 49%;
+    width: 92%;
+    /* white-space: nowrap; */
+    display: flex;
+    /* overflow-x: auto;
+    overflow-y: hidden;
+    scrollbar-width: none; */
+    /* white-space: nowrap; */
+    /* background-color: #FF9191; */
+}
+
+.containers .box1 {
+    /* z-index: 1; */
+    /* position: fixed; */
+    /* position: relative; */
+/* display: inline-block; */
+    height: 98%;
+    width: 50%;
+    /* margin-top: -50%; */
+    margin-left: 2%;
+    background-color: #d8dbe93f;
+    border-radius: 50px;
+}
+.page8 .box1 h3{
+    margin-top:10% ;
+    margin-left:10% ;
+    line-height: 45px;
+    letter-spacing: -1px;
+    font-size: 50px;
+    color: #fff;
+}
+.page8 .box1 p{
+    margin-top:10% ;
+    margin-left:10% ;
+    font-size: 28px;
+    color: #fff;
+}
+.page8 .box1 h6 {
+    margin-top: 7%;
+    margin-left: 10%;
+    font-size: 28px;
+    color: #fff;
+    font-weight: 500;
+}
+.page8 .box1 h5{
+    /* margin-top: 10%; */
+    margin-left: 10%;
+    font-size: 18px;
+    color: #ccc5c5;
+}
+.box1 button{
+    padding: 20px 30px;
+    /* margin-bottom: 30%; */
+    margin-top: 3%;
+    margin-left: 10%;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+    /* background: linear-gradient(#5D44EE,#755FEF); */
+    animation: colors 2s infinite linear;
+    transition: 1s;
+    color: #fff;
+    cursor: pointer;
+}
+
+@keyframes colors {
+    0%{
+        background-color: #5D44EE;
+    }
+    50%{
+        background-color: #604B9E;
+    }100%{
+        background-color: #755FEF;
+    }
+    
+}
+
+
+
+
+.containers .box2 {
+    /* white-space: nowrap; */
+    /* position: absolute; */
+    /* display: inline-block; */
+    height: 98%;
+    width: 30%;
+    margin-top: 5px;
+    margin-left: 2%;
+    background-color: #edeef1ec;
+    border-radius: 50px;
+}
+.containers .box2 h5{
+    margin-top: 15%;
+    margin-left: 5%;
+    font-size: 20px;
+    font-weight: 500;
+}
+.containers .box2 p {
+    padding: 10px;
+    margin-top: 20%;
+    margin-left: 5%;
+    font-size: 28px;
+    font-weight: 500;
+}
+.containers .a{
+    position: absolute;
+    top: 0;
+    right: -16%;
+}
+
+.page9{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background: #0B0616;
+}
+.page9 video{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    object-position:center;
+}
+.page9 .cover{
+    position: absolute;
+    top: 0px;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    /* background-color: #929e4ba9; */
+}
+.cover .left{
+    height: 100%;
+    width: 50%;
+    /* background-color: #FF9191; */
+}
+.cover .left h1{
+    margin-top: 20%;
+    margin-left: 10%;
+    font-size: 45px;
+    color: #fff;
+}
+.cover .left p {
+    margin-top: 5%;
+    margin-left: 10%;
+    font-size: 18px;
+    color: #fff;
+}
+.cover .left button {
+    padding: 15px 20px;
+    margin-top: 8%;
+    margin-left: 10%;
+    font-size: 18px;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+     animation: colors 2s infinite linear;
+     font-weight: 600;
+     cursor: pointer;
+}
+.cover .center {
+    height: 100%;
+    width: 25%;
+    /* background-color: #9b6565; */
+}
+.cover .center h1{
+    font-size: 23px;
+    font-weight: 600;
+    color: #fff;
+    /* padding: 20% 30%; */
+    padding-left: 20%;
+    padding-top: 30%;
+
+}
+.cover .right {
+    height: 100%;
+    width: 25%;
+    /* background-color: #a53535; */
+}
+.cover .right .a{
+    margin-top: 25%;
+}
+.cover .right .b {
+    margin-top: 10%;
+}
+
+
+.cover .right .box{
+    /* margin-top: 5%; */
+    padding: 20px;
+    height: 100px;
+    width: 100%;
+    /* background-color: #5D44EE; */
+}
+.cover .right .box h2{
+    font-size: 20px;
+    color: #fff;
+}
+.cover .right .box p {
+    padding-top: 5px;
+    font-size: 15px;
+    color: #fff;
+}
+
+.page10{
+    position: relative;
+    height: 110%;
+    width: 100%;
+    background-color: #0B0616;
+}
+.page10 h1{
+    
+    padding: 9px;
+    font-size: 185px;
+    font-weight: 900;
+    -webkit-text-stroke: 3px #604B9E;
+    color: transparent;
+}
+.page10 .div1{
+    margin-top: -40px;
+    margin-left: 5%;
+    height: 470px;
+    width: 600px;
+    background-color: #5D44EE;
+    border-radius: 30px;
+    color: #fff;
+    padding: 50px;
+}
+.page10 .h h2{
+    /* padding-top: 5%; */
+    font-size: 25px;
+}
+.page10 .h p {
+    /* padding-top: 5%; */
+    margin-top: 10%;
+    font-size: 25px;
+}
+.page10 .div2 {
+    position: absolute;
+    top: 31%;
+    right: 5%;
+    /* margin-top: -40px;
+    margin-left: 5%; */
+    height: 470px;
+    width: 600px;
+    background-color: #5D44EE;
+    border-radius: 30px;
+    color: #fff;
+        padding: 50px;
+}
+.page10 .div2 button{
+    margin-top: 30px;
+    padding: 15px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+    animation: color2 2s infinite linear;
+    color: #fff;
+    cursor: pointer;
+}
+@keyframes color2 {
+    0% {
+        background-color: #100453;
+    }
+
+    50% {
+        background-color: #3107b1;
+    }
+
+    100% {
+        background-color: #120942;
+    }
+
+}
+.page11{
+    padding: .1px;
+    text-align: center;
+    height: 95%;
+    width: 100%;
+    background-color: #0B0616;
+    color: #fff;
+}
+.page11 h2{
+    margin-top: 100px;
+    font-size: 45px;
+    font-weight: 600;
+}
+.page11 h5 {
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.page11 p {
+    margin-top: 40px;
+    font-size: 19px;
+    font-weight: 500;
+}
+.page11 button{
+    padding: 20px 25px;
+    margin-top: 7%;
+        font-size: 19px;
+        font-weight: 600;
+        border: none;
+        border-radius: 10px;
+        animation: color2 2s infinite linear;
+        color: #fff;
+        cursor: pointer;
+        transition: 1s;
+}
+.page11 button:hover{
+    scale: 1.2;
+}
+.page12{
+    position: relative;
+    height: 80%;
+    width: 100%;background-color:#0B0616;
+    padding: .1px;
+}
+.page12 .onediv{
+    margin-top: 3%;
+    margin-left: 10%;
+    height: 400px;
+    width: 80%;
+    background-color:#724444;
+    background: conic-gradient(from 200.2deg at 50% 50%, #3F1E85 0deg, #672CE6 360deg);
+   border-radius: 267px;
+}
+.page12 .coverone{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    height: 55%;
+    width: 80%;
+    /* background-color: #c0b4f0a2; */
+}
+.page12 .coverone .left{
+    margin-left: -1%;
+    height: 100%;
+    width: 60%;
+    /* background-color: #8f5c5c; */
+    color: #fff;
+}
+.page12 .coverone .left h2{
+    margin-top: 30px;
+    font-size: 19px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    
+}
+.page12 .coverone .left h3 {
+    padding-top: 10px;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 2px;
+
+}
+.page12 .coverone .left .p{
+    margin-top: 20%;
+    font-size: 21px;
+        font-weight: 500;
+        letter-spacing: 2px;
+}
+.page12 .coverone .left .btn{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    /* background-color: #ce7f7f; */
+}
+.page12 .coverone .left .btn p{
+    font-size:19px ;
+    border-radius: 15px;
+    border: 1px solid #fff;
+    padding: 8px 18px;
+    cursor: pointer;
+}
+
+.page12 .coverone .right {
+    color: #fff;
+    text-align: right;
+    padding-right: 70px;
+    padding-top: 30px;
+    height: 100%;
+    width: 30%;
+    /* background-color: #8f5c5c; */
+}
+.page12 .coverone .right h3{
+    font-size: 16px;
+    padding-top: 15px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.page12 .coverone .right h2 {
+    font-size:25px;
+ margin-bottom: 20px;
+ font-weight: 600;
+}
+.footer{
+    display: flex;
+    height: 80%;
+    width: 100%;
+    background-color: #0B0616;
+}
+.box4{
+    height: 100%;
+    width: 40%;
+    /* background-color: #C0B4F0; */
+}
+
+.box4 img{
+    margin-left: 10%;
+    margin-top: 20%;
+    height: 6%;
+    /* width: 50%; */
+}
+.box4 p{
+    margin-left:
+    10% ;
+    margin-top: 20px;
+    font-weight: 500;
+    width: 60%;
+    font-size: 20px;
+    color: #fff;
+}.box4 .pct{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -1%;
+    gap: 30px;
+    margin-top: 10%;
+    height: 50px;
+    width: 110%;
+    color: #fff;
+    /* background-color: #100453; */
+}
+.pct li{
+    list-style-type: none;
+    font-size: 20px;
+}
+.box4 .para{
+    margin-top: -2px;
+    font-size: 18px;
+    width: 100%;
+    color: #fff;
+
+}
+.box5 {
+    text-align: center;
+    height: 100%;
+    width: 30%;
+    /* background-color: #59499b; */
+    color: #fff;
+}
+.box5 h2{
+    margin-top: 15%;
+    font-size: 25px;
+    font-weight: 500;
+    margin-left:10% ;
+}
+.box5  p{
+    text-align: left;
+    margin-left: 35%;
+    margin-top: 18px;
+    font-size:18px;
+    font-weight: 600;
+}
